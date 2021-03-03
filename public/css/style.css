@@ -1,0 +1,122 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.img-usuario {
+  width: 40px;
+  height: 40px;
+}
+
+td {
+  width: 150px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+td div {
+  width: 150px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .075) !important;
+}
+
+.big-modal form .modal-body {
+  min-height: 20vh !important;
+  min-width: 20vh !important;
+}
+
+#editor {
+  min-height: 20vh !important;
+}
+
+.ql-editor {
+  min-height: 20vh !important;
+}
+
+.closeModal {
+  cursor: pointer;
+}
+
+.hrMenu {
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+
+tbody {
+  display: block;
+  height: 50vh;
+  overflow: auto;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table {
+  width: 50vh;
+}
+
+.nav-link {
+  cursor: pointer !important;
+}
+
+.read {
+  background-color: rgba(0,0,0,.03);
+}
+
+.toast {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.badge {
+  position: relative;
+  top: -15px;
+  left: -5px;
+}
+
+#userImage {
+  cursor: pointer;
+}
+
+tbody::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: white;
+}
+
+tbody::-webkit-scrollbar:vertical {
+  width:5px;
+}
+
+tbody::-webkit-scrollbar-button:increment, tbody::-webkit-scrollbar-button {
+  display: none;
+}
+
+tbody::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+tbody::-webkit-scrollbar-thumb:hover {
+  background: darkgray;
+}
